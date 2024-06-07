@@ -34,16 +34,7 @@
                                         <th>Middle Name</th>
                                         <th>Last Name</th>
                                         <th>Address</th>
-                                        <th>Courty</th>
-                                        <th>State</th>
-                                        <th>City</th>
-                                        <th>Zip</th>
-                                        <th>Age</th>
-                                        <th>Birthday</th>
-                                        <th>Hired Date</th>
-                                        <th>Department</th>
-                                        <th>Division</th>
-                                        <th>Action</th>
+                                        
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -54,15 +45,7 @@
                                         <td>{{ $data->middlename }}</td>
                                         <td>{{ $data->lastname }}</td>
                                         <td>{{ $data->address }}</td>
-                                        <td>{{ $data->country }}</td>
-                                        <td>{{ $data->state }}</td>
-                                        <td>{{ $data->city }}</td>
-                                        <td>{{ $data->zip }}</td>
-                                        <td>{{ $data->age }}</td>
-                                        <td>{{ $data->birthdate }}</td>
-                                        <td>{{ $data->datehired }}</td>
-                                        <td>{{ $data->department }}</td>
-                                        <td>{{ $data->division }}</td>
+                                        
                                         <td scope="col">
 
                             <a href="{{ url('employee/'.$data->id.'/edit')}}">
