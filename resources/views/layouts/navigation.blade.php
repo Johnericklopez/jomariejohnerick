@@ -29,50 +29,15 @@
                 </a>
             </li>
 
-            <li class="nav-item">
-                <a href="{{ route('employee.index') }}" class="nav-link">
-                    <i class="nav-icon fas fa-users"></i>
-                    <p>
-                        {{ __('employee management') }}
-                    </p>
-                </a>
-            </li>
+            
             <li class="nav-item">
                 <a href="{{ route('employee.show') }}" class="nav-link">
                     <i class="nav-icon fas fa-users"></i>
                     <p>
-                        {{ __('system management') }}
+                        {{ __('BSIT-3b') }}
                     </p>
                 </a>
             </li>
-            <li class="nav-item">
-                <a href="{{ route('about') }}" class="nav-link">
-                    <i class="nav-icon far fa-address-card"></i>
-                    <p>
-                        {{ __('About us') }}
-                    </p>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-circle nav-icon"></i>
-                    <p>
-                        Two-level menu
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview" style="display: none;">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="far fa-circle nav-icon"></i>
-                            <p>Child menu</p>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-    <!-- /.sidebar-menu -->
-</div>
+           
+            
 <!-- /.sidebar -->
